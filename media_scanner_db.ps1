@@ -198,11 +198,7 @@ function Get-MovieInfoFromImdb {
     
     # Multiple API keys - add your keys here
     $apiKeys = @(
-        "42cea86b",
-        "382cfaed",
-        "71efd438",
-        "5b1bbbfa",
-        "ec8397b2"
+        ""
     )
     
     # Filter out placeholder keys
