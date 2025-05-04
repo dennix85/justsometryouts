@@ -30,7 +30,7 @@ class MediaScannerApp:
             "verbose_logging": False
         }
         self.api_keys_status = {}  # To track API key usage and cooldown times
-                    self.scanning_active = False
+        self.scanning_active = False
             
     def scan_folders(self):
         """Scan folders for media files"""
@@ -1094,7 +1094,6 @@ class MediaScannerApp:
                         "blocked": bool(blocked),
                         "cooldown_until": cooldown_until,
                         "daily_calls": daily_calls
-                    }d": False,
                         "cooldown_until": None,
                         "daily_calls": 0
                     }
@@ -1104,4 +1103,4 @@ class MediaScannerApp:
                     )
                 else:
                     self.api_keys_status[key] = {
-                        "blocke
+                        "blocked": bool(blocked),
