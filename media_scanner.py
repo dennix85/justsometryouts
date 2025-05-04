@@ -1104,3 +1104,6 @@ class MediaScannerApp:
                 else:
                     self.api_keys_status[key] = {
                         "blocked": bool(blocked),
+                         "cooldown_until": cooldown_until,
+                         "daily_calls": daily_calls
+                    }
